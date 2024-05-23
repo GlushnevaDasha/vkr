@@ -1,7 +1,13 @@
-import { FC } from "react"
+import { FC } from "react";
+import { Container } from "../components";
+import { AppRoutes } from "../routes";
 
 const App: FC = () => {
-  return <div>Start Page</div>
-}
+  return (
+    <Container>
+      <AppRoutes />
+    </Container>
+  );
+};
 
-export default App
+export default App;
